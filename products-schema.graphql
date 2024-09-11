@@ -136,14 +136,14 @@ type User @key(fields: "id") {
   id: ID!
 }
 
-type Review @key(fields: "id") { 
+type Review @key(fields: "id") {
   id: Int!
   body: String!
   product: Product!
-  user: User! 
+  user: User!
 }
 
-type Subscription { 
+type Subscription {
   reviewAdded: Review
 }
 
