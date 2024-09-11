@@ -143,6 +143,10 @@ type Review @key(fields: "id") {
   user: User! 
 }
 
+type Subscription { 
+  reviewAdded: Review
+}
+
 #"""
 #A specific review by a user about a product. This contains all the high level details about a review including the body of the review.
 #"""
