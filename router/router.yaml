@@ -30,3 +30,7 @@ subscription:
 
 ## Enter Workshop Module Configs Below
 
+limits:
+  max_depth: 5
+  max_hight: 10
+  max_aliases: 3
